@@ -19,6 +19,10 @@
 		B048FE2022E60B8E00F79323 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048FE1F22E60B8E00F79323 /* DetailView.swift */; };
 		B048FE2222E60DC200F79323 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048FE2122E60DC200F79323 /* SubscriptionView.swift */; };
 		B048FE2422E60FE300F79323 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048FE2322E60FE300F79323 /* InformationView.swift */; };
+		B06D48F322E73EA30068FF55 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06D48EF22E73EA30068FF55 /* SnapKit.framework */; };
+		B06D48F422E73EA30068FF55 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06D48F022E73EA30068FF55 /* RxSwift.framework */; };
+		B06D48F522E73EA30068FF55 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06D48F122E73EA30068FF55 /* RxCocoa.framework */; };
+		B06D48F622E73EA30068FF55 /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06D48F222E73EA30068FF55 /* RxAtomic.framework */; };
 		B06E53B022E69E2700CC2241 /* ScrollableMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E53AF22E69E2700CC2241 /* ScrollableMainView.swift */; };
 		B06E53B222E69E6700CC2241 /* ScrollablePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E53B122E69E6700CC2241 /* ScrollablePage.swift */; };
 		B06E53B422E69EC200CC2241 /* ScrollableCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E53B322E69EC200CC2241 /* ScrollableCustomView.swift */; };
@@ -44,6 +48,10 @@
 		B048FE1F22E60B8E00F79323 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B048FE2122E60DC200F79323 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
 		B048FE2322E60FE300F79323 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		B06D48EF22E73EA30068FF55 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		B06D48F022E73EA30068FF55 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		B06D48F122E73EA30068FF55 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		B06D48F222E73EA30068FF55 /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		B06E53AF22E69E2700CC2241 /* ScrollableMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableMainView.swift; sourceTree = "<group>"; };
 		B06E53B122E69E6700CC2241 /* ScrollablePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollablePage.swift; sourceTree = "<group>"; };
 		B06E53B322E69EC200CC2241 /* ScrollableCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableCustomView.swift; sourceTree = "<group>"; };
@@ -52,9 +60,6 @@
 		B0DA671E22E635C800D497C2 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		B0DA672022E6383A00D497C2 /* SubscriptionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewCell.swift; sourceTree = "<group>"; };
 		B0DA672322E6386B00D497C2 /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
-		B0F058F422E5C0DF00AA9B6F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
-		B0F058F522E5C0DF00AA9B6F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		B0F058F722E5C0DF00AA9B6F /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06D48F322E73EA30068FF55 /* SnapKit.framework in Frameworks */,
+				B06D48F422E73EA30068FF55 /* RxSwift.framework in Frameworks */,
+				B06D48F522E73EA30068FF55 /* RxCocoa.framework in Frameworks */,
+				B06D48F622E73EA30068FF55 /* RxAtomic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +82,7 @@
 			children = (
 				B041BA4222E5BFD70047B29D /* ESTest */,
 				B041BA4122E5BFD70047B29D /* Products */,
-				B0F058F222E5C0DF00AA9B6F /* Frameworks */,
+				B06D48EE22E73EA20068FF55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +149,17 @@
 			path = DetailPage;
 			sourceTree = "<group>";
 		};
+		B06D48EE22E73EA20068FF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06D48F222E73EA30068FF55 /* RxAtomic.framework */,
+				B06D48F122E73EA30068FF55 /* RxCocoa.framework */,
+				B06D48F022E73EA30068FF55 /* RxSwift.framework */,
+				B06D48EF22E73EA30068FF55 /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B06E53AD22E69D4400CC2241 /* Scrollable */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,34 +203,6 @@
 				B0DA672322E6386B00D497C2 /* ReusableCell.swift */,
 			);
 			path = Protocols;
-			sourceTree = "<group>";
-		};
-		B0F058F222E5C0DF00AA9B6F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B0F058F322E5C0DF00AA9B6F /* Rx */,
-				B0F058F622E5C0DF00AA9B6F /* SnapKit */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B0F058F322E5C0DF00AA9B6F /* Rx */ = {
-			isa = PBXGroup;
-			children = (
-				B0F058F422E5C0DF00AA9B6F /* RxCocoa.framework */,
-				B0F058F522E5C0DF00AA9B6F /* RxSwift.framework */,
-			);
-			name = Rx;
-			path = SDKs/Rx;
-			sourceTree = "<group>";
-		};
-		B0F058F622E5C0DF00AA9B6F /* SnapKit */ = {
-			isa = PBXGroup;
-			children = (
-				B0F058F722E5C0DF00AA9B6F /* SnapKit.framework */,
-			);
-			name = SnapKit;
-			path = SDKs/SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +280,10 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/SDKs/Rx/RxCocoa.framework",
-				"$(SRCROOT)/SDKs/Rx/RxSwift.framework",
-				"$(SRCROOT)/SDKs/SnapKit/SnapKit.framework",
-				"$(SRCROOT)/SDKs/Rx/RxAtomic.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxAtomic.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputFileListPaths = (
@@ -467,9 +459,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SDKs/**",
-					"$(PROJECT_DIR)/SDKs/Rx",
-					"$(PROJECT_DIR)/SDKs/SnapKit",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ESTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,9 +481,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SDKs/**",
-					"$(PROJECT_DIR)/SDKs/Rx",
-					"$(PROJECT_DIR)/SDKs/SnapKit",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ESTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
