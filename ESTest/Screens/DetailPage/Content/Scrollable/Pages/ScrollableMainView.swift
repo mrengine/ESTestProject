@@ -22,14 +22,14 @@ final class ScrollableMainView: ScrollablePage {
         }
     }
 
-    let phoneNumberLabel: UILabel = {
+    private let phoneNumberLabel: UILabel = {
         let label = UILabel()
         label.textColor = .white
         label.font = UIFont.boldSystemFont(ofSize: 20)
         return label
     }()
 
-    let titleLabel: UILabel = {
+    private let titleLabel: UILabel = {
         let label = UILabel()
         label.textColor = .white
         label.font = UIFont.boldSystemFont(ofSize: 25)
@@ -37,7 +37,7 @@ final class ScrollableMainView: ScrollablePage {
         return label
     }()
 
-    let descriptionLabel: UILabel = {
+    private let descriptionLabel: UILabel = {
         let label = UILabel()
         label.textColor = .white
         label.font = UIFont.systemFont(ofSize: 15)
@@ -45,13 +45,13 @@ final class ScrollableMainView: ScrollablePage {
         return label
     }()
 
-    let callButton: UIButton = {
+    private let callButton: UIButton = {
         let button = UIButton(type: .system)
         button.backgroundColor = .white
         return button
     }()
 
-    let subscriptionDescriptionLabel: UILabel = {
+    private let subscriptionDescriptionLabel: UILabel = {
         let label = UILabel()
         label.textColor = .white
         label.numberOfLines = 2
